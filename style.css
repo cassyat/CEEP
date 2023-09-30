@@ -33,16 +33,15 @@
 }
 
 .dropbtn {
-    background-color: #d9d9d9;
     color: #963535;
-    padding: 25px 1px 1px 1px;
     font-size: 20px;
     border: none;
     font-family:  'Sansation', sans-serif;
   }
 
   .cursos{
-    margin-left: 15px;
+    position: fixed;
+    left: 15px;
   }
   
   .triangle {
@@ -61,28 +60,38 @@
     height: 40px;
     width: 0px;
     color: #aaaaaa;
-    display: inline-flex;
-    margin: 15px 0px -15px 15px;
+    display: inline-block;
+    position: fixed;
+    left: 140px;
+    top: 84px;
   }
 
-#cursos:hover {
-    background-color: #d9d9d9;
-    }
 .dropdown {
     position: fixed;
-    display: block;
-    background-color: aqua;
+    left: 0px;
+    top: 70px;
+    width: 127px;
+    height: 46px;
+    background-color: #d9d9d9;
+    padding: 24px 0 0 15px;
 }
 
 .dropdown-child {
-    margin-top: 22px;
+    margin-top: 26px;
     display: none;
     background-color: #d9d9d9;
-    min-width: 139px;
-    font-family:  'Sansation', sans-serif;
+    width: 142px;
+    font-family: 'Sansation', sans-serif;
     font-size: 18px;
+    position: fixed;
+    left: 0;
 }
-.dropdown-child a {
+
+div p {
+    border-top: 1px solid #aaaaaa;
+}
+
+.dropdown-child p {
     color: #963535;
     padding: 20px;
     text-decoration: none;
