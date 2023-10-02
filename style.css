@@ -40,20 +40,21 @@
   }
 
   .cursos{
-    position: fixed;
+    position: absolute;
     left: 15px;
+    top: 0px;
   }
 
   .atend{
-    position: relative;
-    left: 155px;
-    top: 24px;
+    position: absolute;
+    left: 20px;
+    top: 0px;
   }
   
   .local{
-    position: relative;
-    left: 340px;
-    top: 24px;
+    position: absolute;
+    left: 20px;
+    top: 0px;
   }
 
   .triangle {
@@ -73,13 +74,13 @@
     width: 0px;
     color: #aaaaaa;
     display: inline-block;
-    position: fixed;
+    position: absolute;
     left: 140px;
     top: 84px;
   }
 
 .dropdown {
-    position: fixed;
+    position: absolute;
     left: 0px;
     top: 70px;
     width: 126px;
@@ -92,11 +93,11 @@
     margin-top: 26px;
     display: none;
     background-color: #d9d9d9;
-    width: 142px;
+    min-width: 142px;
     font-family: 'Sansation', sans-serif;
     font-size: 18px;
-    position: fixed;
-    left: 0;
+    position: absolute;
+    left: -14px;
 }
 
 div p {
@@ -114,7 +115,7 @@ div p {
 }
 
 .dropdown2 {
-    position: fixed;
+    position: absolute;
     left: 141px;
     top: 70px;
     width: 185px;
@@ -127,11 +128,11 @@ div p {
     margin-top: 26px;
     display: none;
     background-color: #d9d9d9;
-    width: 199px;
+    min-width: 198px;
     font-family: 'Sansation', sans-serif;
     font-size: 18px;
-    position: fixed;
-    left: 141px;
+    position: absolute;
+    left: -4px;
 }
 
 .dropdown-child2 p {
@@ -150,16 +151,16 @@ div p {
     width: 0px;
     color: #aaaaaa;
     display: inline-block;
-    position: fixed;
+    position: absolute;
     left: 340px;
     top: 84px;
   }
 
   .dropdown3 {
-    position: fixed;
+    position: absolute;
     left: 341px;
     top: 70px;
-    width: 184px;
+    min-width: 184px;
     height: 46px;
     background-color: #d9d9d9;
     padding: 24px 0 0 15px;
@@ -172,8 +173,8 @@ div p {
     width: 199px;
     font-family: 'Sansation', sans-serif;
     font-size: 18px;
-    position: fixed;
-    left: 341px;
+    position: absolute;
+    left: 0px;
 }
 
 .dropdown-child3 p {
@@ -184,4 +185,124 @@ div p {
 }
 .dropdown3:hover .dropdown-child3 {
     display: block;
+}
+
+.image{
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    top: 140px;
+    z-index: -5;
+}
+
+.t_fundo{
+    background-color: #d9d9d9;
+    position: absolute;
+    height: 560px;
+    width: 700px;
+    top: 780px;
+    left: 330px;
+    border-radius: 10%;
+}
+
+.texto{
+    text-align: center;
+    font-size: 23px;
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 805px;
+    left: 380px;
+    font-family:  'Sansation', sans-serif;
+}
+
+.fundo_cursos{
+    position: absolute;
+    left: -115px;
+    top: 1400px;
+}
+
+.fundo_cursos div{
+    background-color: #963535;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 5%;
+}
+
+.fundo_cursos div:hover{
+    transform: scale(1.1);
+}
+
+.ads{
+    position: absolute;
+    left: 175px;
+}
+
+.vest{
+    position: absolute;
+    left: 355px;
+}
+
+.agro{
+    position: absolute;
+    left: 535px;
+}
+
+.quimi{
+    position: absolute;
+    left: 715px;
+}
+
+.farm{
+    position: absolute;
+    left: 895px;
+}
+
+.segure{
+    position: absolute;
+    left: 1075px;
+}
+
+.rh{
+    position: absolute;
+    left: 1255px;
+}
+
+.ads_i{
+    position: relative;
+    left: 5px;
+    top: 8px;
+}
+
+.vest_i{
+    position: relative;
+    left: 5px;
+    top: 12px;
+}
+
+.agro_i{
+    position: relative;
+    left: 7px;
+    top: 12px;
+}
+
+.quimi_i{
+    position: relative;
+    left: 25px;
+    top: 20px;
+
+    
+}
+
+.farm_i{
+    
+}
+
+.segure_i{
+    
+}
+
+.rh_i{
+    
 }
