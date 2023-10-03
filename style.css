@@ -349,7 +349,6 @@ div p {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     position: absolute;
-    height: 100px;
     top: 125px;
     left:10px;
     right:1050px;
@@ -360,7 +359,6 @@ div p {
     color: #6d6d6d;
     position: absolute;
     font-size: 12px;
-    height:120px;
     top:150px;
     left: 1130px;
     right: 10px;
